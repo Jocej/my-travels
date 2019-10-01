@@ -28,12 +28,12 @@ const Completelist = () => (
     <li key={item.destination}>
         <div>{item.destination}</div>
         <div>{item.country}</div>
-        <div>{item.image}</div>
+        <img src={item.image}/>
         <div>{item.distance}</div>
     </li>
     ))};
 </div>
 
-),
+)
 
 export default Completelist;
